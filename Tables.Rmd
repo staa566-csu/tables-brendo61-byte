@@ -1,0 +1,81 @@
+---
+title: "Tables"
+output: html_document
+---
+
+# Data Source
+
+The data used for the assignment is from work. My team designs automation tools for telecommunication systems.
+Currently that means software to maintain legacy network infrastructure. Massive global internet usage growth coupled with supply chain issues over the last few years means every piece of hardware needs to be operating at max efficiency.
+
+Unfortunately, some of the older networking hardware is not really maintenance friendly - but hey that's why I have a job :)
+
+Due to this unfriendly nature the team has been tasked with automating various aspects including Upgrades. Upgrades for network infrastructure hardware is a bit more involved then letting your phone update over 20-30min. It requires maintenance windows, on-site operators, network traffic has to be redirected, etc; there are a lot of moving peaces logistically before our software can even run.
+
+While the Upgrades are preformed what we call Key-Performance-Indicators (KPI, i.e. important things) are logged before and after the Upgrade and then compared as a final check. For example the version of the hardware should change over the course of the upgrade so something such as "<version_before> != <version_after>" might be a KPI check.
+
+A quick note is some of the language in the data is rather verbose. This is by design as this information is used by on site operators identify issues. Sometimes the hardware is so out of wack it's just better to let a human fix it instead of any semi-smart program. The naming of the data is also generated as a function of how Network Engineers program the Upgrades as our tool can be thought of as a very high level programming langue. So while the wording can be verbose it has precise meaning.
+
+## Convey in the Table
+
+Really what operators need to be able to identity are KPIs that did not pass their checks. Again if the check is something like "<version_before> != <version_after>" and these two variables equal each other that's bad and that operators needs to be able to find this info.
+
+Our operators work on headless servers (OS has no GUI- just a terminal) so in practice there are some techniques we use to help navigate data.
+
+For this assignment I wanted to look at how we can generate after-action reports. While our operators use terminals it would be nice to collect information about the upgrade for the Network Engineering Mangers in a more human friendly manor.
+
+To this main I wanted to be able to cleanly display all KPIs are allow readers to quickly verify the status of all KPIs.
+
+### Functionality
+
+Again this comes back to allowing the readers to view information quickly so decisions can be made quickly. Below there are two different styles of the data: a simpler table that would look good in a PDF report and a second move involved table that would go well for an emailed report.
+
+### Formatting
+
+In both styles the goal was simple and easy to read. The data used for this assignment is maybe 60% of what the final list will be. Project spec is the these reports have to be generated in the order seen below so readability was long lists was key (data is in the order the KPI is generated so its easy to go down a check-list for verification - the number at the front of the KPI name is a long story but it has to be there too).
+
+For the first table (PDF report) was given the stripped pattern just to make life easier. The second table (email report) keeps to project spec but adds a search bar. I thought that was a good middle ground.
+
+
+
+```{r}
+# load libs and data
+library(kableExtra)
+library(knitr)
+library(sparkline)
+library(tidyverse)
+library(DT)
+
+data = read.csv("/Users/brendo/repos/tables-brendo61-byte/data.csv")
+```
+
+```{r}
+table = data %>% 
+  select(KPI, Result, Indicator.Name, Pre.Check.Value, Post.Check.Value, Operation, Logic.ID) %>% 
+  kbl(
+    col.names = c(
+                    "KPI",
+                    "Result",
+                    "Indicator Name",
+                    "Pre-Check Value",
+                    "Post Check Value",
+                    "Operation",
+                    "Logic ID"
+                ),
+    align = c("l","c","l","l","l","c","c")) %>%
+  kable_styling(font_size=12, fixed_thead = TRUE) %>%
+  kable_paper(lightable_options = "striped", html_font = "sans-serif", full_width = TRUE)
+
+table
+```
+
+
+```{r}
+datatable(data = data, class = 'cell-border hover', rownames = FALSE,
+            caption = htmltools::tags$caption(
+              style = 'caption-side: bottom; text-align: center;',
+              'KPI Report: ', htmltools::em(Sys.Date())
+            )
+          )
+```
+
