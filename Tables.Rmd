@@ -14,7 +14,7 @@ Due to this unfriendly nature the team has been tasked with automating various a
 
 While the Upgrades are preformed what we call Key-Performance-Indicators (KPI, i.e. important things) are logged before and after the Upgrade and then compared as a final check. For example the version of the hardware should change over the course of the upgrade so something such as "<version_before> != <version_after>" might be a KPI check.
 
-A quick note is some of the language in the data is rather verbose. This is by design as this information is used by on site operators identify issues. Sometimes the hardware is so out of wack it's just better to let a human fix it instead of any semi-smart program. The naming of the data is also generated as a function of how Network Engineers program the Upgrades as our tool can be thought of as a very high level programming langue. So while the wording can be verbose it has precise meaning.
+A quick note is some of the language in the data is rather verbose. This is by design as this information is used by on site operators identify issues. Sometimes the hardware is so out of wack it's just better to let a human fix it instead of any semi-smart program. The naming of the data is also generated as a function of how Network Engineers program the Upgrades as our tool can be thought of as a very high level programming language. So while the wording can be verbose it has precise meaning.
 
 ## Convey in the Table
 
