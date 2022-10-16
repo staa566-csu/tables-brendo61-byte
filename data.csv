@@ -1,0 +1,112 @@
+KPI,Logic ID,Indicator Name,Operation,Pre-Check Value,Post-Check Value,Result
+1_Show_Running_Config,1,0/LC0,equals,0/LC0,0/LC0,TRUE
+1_Show_Running_Config,1,GCC10/10/0/0,equals,GCC10/10/0/0,GCC10/10/0/0,TRUE
+1_Show_Running_Config,1,0/LC1,equals,0/LC1,0/LC1,TRUE
+1_Show_Running_Config,1,TenGigE0/0/0/6/0,equals,TenGigE0/0/0/6/0,TenGigE0/0/0/6/0,TRUE
+1_Show_Running_Config,1,TenGigE0/4/0/11,equals,TenGigE0/4/0/11,TenGigE0/4/0/11,TRUE
+1_Show_Running_Config,1,TenGigE0/4/0/61.1,equals,TenGigE0/4/0/61.1,TenGigE0/4/0/61.1,TRUE
+1_Show_Running_Config,1,Optics0/2/0/0,equals,Optics0/2/0/0,Optics0/2/0/0,TRUE
+1_Show_Running_Config,1,Optics0/2/0/1,equals,Optics0/2/0/1,Optics0/2/0/1,TRUE
+1_Show_Running_Config,1,ODU40/6/0/1,equals,ODU40/6/0/1,ODU40/6/0/1,TRUE
+1_Show_Running_Config,1,HundredGigE0/0/0/6,equals,HundredGigE0/0/0/6,HundredGigE0/0/0/6,TRUE
+1_Show_Running_Config,1,HundredGigE0/0/0/6.4001,equals,HundredGigE0/0/0/6.4001,HundredGigE0/0/0/6.4001,TRUE
+1_Show_Running_Config,1,GCC10/6/0/1,equals,GCC10/6/0/1,GCC10/6/0/1,TRUE
+1_Show_Running_Config,1,HundredGigE0/8/0/111,equals,HundredGigE0/8/0/111,HundredGigE0/8/0/111,TRUE
+1_Show_Running_Config,1,GCC10/10/0/1,equals,GCC10/10/0/1,GCC10/10/0/1,TRUE
+1_Show_Running_Config,1,HundredGigE0/12/0/6,equals,HundredGigE0/12/0/6,HundredGigE0/12/0/6,TRUE
+1_Show_Running_Config,1,HundredGigE0/12/0/6.4001,equals,HundredGigE0/12/0/6.4001,HundredGigE0/12/0/6.4001,TRUE
+1_Show_Running_Config,1,GCC10/14/0/0,equals,GCC10/14/0/0,GCC10/14/0/0,TRUE
+1_Show_Running_Config,1,GCC10/14/0/1,equals,GCC10/14/0/1,GCC10/14/0/1,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/8/0/10.4001,equals, interface HundredGigE0/8/0/10.4001, interface HundredGigE0/8/0/10.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface FortyGigE0/4/0/1.4001,equals, interface FortyGigE0/4/0/1.4001, interface FortyGigE0/4/0/1.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface FortyGigE0/4/0/6.4001,equals, interface FortyGigE0/4/0/6.4001, interface FortyGigE0/4/0/6.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface FortyGigE0/8/0/1.4001,equals, interface FortyGigE0/8/0/1.4001, interface FortyGigE0/8/0/1.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface FortyGigE0/8/0/6.4001,equals, interface FortyGigE0/8/0/6.4001, interface FortyGigE0/8/0/6.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/3/0/10.4001,equals, interface HundredGigE0/3/0/10.4001, interface HundredGigE0/3/0/10.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/8/0/11.4001,equals, interface HundredGigE0/8/0/11.4001, interface HundredGigE0/8/0/11.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/12/0/10.4001,equals, interface HundredGigE0/12/0/10.4001, interface HundredGigE0/12/0/10.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/12/0/11.4001,equals, interface HundredGigE0/12/0/11.4001, interface HundredGigE0/12/0/11.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/4/0/11.4001,equals, interface HundredGigE0/4/0/11.4001, interface HundredGigE0/4/0/11.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/0/0/10/2.4001,equals, interface HundredGigE0/0/0/10/2.4001, interface HundredGigE0/0/0/10/2.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface None.4001,equals, interface None.4001, interface None.4001,TRUE
+36_Verify_NCS4K_Frr_Enabled_On_MPLS_TE_Ports,1,interface HundredGigE0/4/0/10.4001,equals, interface HundredGigE0/4/0/10.4001, interface HundredGigE0/4/0/10.4001,TRUE
+48_Show_IS_IS_Neighbors,1,BE205.4001,equals,Up,Up,TRUE
+48_Show_IS_IS_Neighbors,1,Fo0/4/0/6.4001,equals,Up,Up,TRUE
+48_Show_IS_IS_Neighbors,1,Fo0/8/0/6.4001,equals,Up,Up,TRUE
+48_Show_IS_IS_Neighbors,1,BE105.4001,equals,Up,Up,TRUE
+48_Show_IS_IS_Neighbors,1,Fo0/4/0/1.4001,equals,Up,Up,TRUE
+48_Show_IS_IS_Neighbors,1,Fo0/8/0/1.4001,equals,Up,Up,TRUE
+49_Show_BGP_Neighbor,1,192.168.254.161,equals,Established,Established,TRUE
+49_Show_BGP_Neighbor,1,192.168.254.11,equals,Established,Established,TRUE
+49_Show_BGP_Neighbor,1,192.168.254.12,equals,Established,Established,TRUE
+49_Show_BGP_Neighbor,1,192.168.254.160,equals,Established,Established,TRUE
+49_Show_BGP_Neighbor,1,192.168.252.1,equals,Active,Active,TRUE
+49_Show_BGP_Neighbor,1,192.168.252.5,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,2004:192:168:252::1,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,2004:192:168:252::5,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,192.168.251.1,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,192.168.251.5,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,2004:192:168:251::1,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,2004:192:168:251::5,equals,Idle,Idle,TRUE
+49_Show_BGP_Neighbor,1,192.168.254.165,equals,Idle,Idle,TRUE
+50_Show_Interfaces,1,Nu0,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Lo0,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Lo200,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Lo300,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Lo400,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,ti0,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Gi0/0/0/1,equals,admin-down  admin-down,admin-down  admin-down,TRUE
+50_Show_Interfaces,1,Te0/0/0/2,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Te0/0/0/30,equals,admin-down  admin-down,admin-down  admin-down,TRUE
+50_Show_Interfaces,1,Te0/0/0/32.200,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Te0/0/0/32.202,equals,up          up,up          up,TRUE
+50_Show_Interfaces,1,Hu0/0/1/3,equals,up    up,up    up,TRUE
+50_Show_Interfaces,1,Mg0/RP0/CPU0/0,equals,up    up,up    up,TRUE
+50_Show_Interfaces,1,Gi0/0/0/0,equals,down        down,down        down,TRUE
+51_Show_BGP_Neighbor,1,10.201.1.105,equals,up,up,TRUE
+51_Show_BGP_Neighbor,2,10.201.1.105,equals,1,1,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,MIX1_12411_NAUSSAU,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_Brooklynn_M4_4K_t65513_Hu0_4_0_11.4001_11.102.0.,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_Brooklynn_M4_4K_t65497_Hu0_12_0_10.4001_11.103.0,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_Brooklynn_M4_4K_t65484_Hu0_8_0_11.4001_11.102.0.,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_Weschester_M3_4K_t65469_Hu0_15_0_10.4001_11.101.,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_SUFFORK_M2_4K_t60704_Hu0_4_0_10.4001_11.103.0.10,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_Weschester_M3_4K_t65269_Hu0_8_0_10.4001_11.102.0,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_Weschester_M3_4K_t65437_Hu0_2_0_10.4001_11.101.0,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,GMPLS_UNI_Optics0/14/0/11,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_HUBMC_4P3_4K_t60856_Hu0_8_0_10.4001_11.103.0.108,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,GMPLS_UNI_Optics0/12/0/11,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,*tunnel_te60406,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,autob_HUBMC_4P3_4K_t60857_Hu0_8_0_10.4001_11.103.0.108,equals,up  up,up  up,TRUE
+52_Show_MPLS_Traffic_Eng_Tunnels_Brief,1,GMPLS_UNI_Optics0/8/0/11,equals,up  up,up  up,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC3/7,equals,UP    2        12 1     F1/FC3/7     3/FC2/5,UP    2        12 1     F1/FC3/7     3/FC2/5,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F0/FC4/6,equals,DN    0        12 1     F0/FC4/6     3/FC0/2,DN    0        12 1     F0/FC4/6     3/FC0/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC2/7,equals,DN    2        12 12    F1/FC2/7     3/FC2/1,DN    2        12 12    F1/FC2/7     3/FC2/1,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC6/2,equals,UP    2        12 7     F1/FC6/2     1/FC2/2,UP    2        12 7     F1/FC6/2     1/FC2/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/2,equals,UP    3        12 7     F2/FC5/2     1/FC3/2,UP    3        12 7     F2/FC5/2     1/FC3/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC6/4,equals,UP    2        12 7     F1/FC6/4     2/FC2/2,UP    2        12 7     F1/FC6/4     2/FC2/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC6/5,equals,UP    2        12 7     F1/FC6/5     2/FC2/3,UP    2        12 7     F1/FC6/5     2/FC2/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC6/6,equals,UP    2        12 7     F1/FC6/6     3/FC2/2,UP    2        12 7     F1/FC6/6     3/FC2/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC6/7,equals,UP    2        12 7     F1/FC6/7     3/FC2/3,UP    2        12 7     F1/FC6/7     3/FC2/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC7/0,equals,UP    2        12 1     F1/FC7/0     0/FC2/6,UP    2        12 1     F1/FC7/0     0/FC2/6,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC3/4,equals,DN    3        12 12    F2/FC3/4     2/FC3/8,DN    3        12 12    F2/FC3/4     2/FC3/8,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/0,equals,UP    3        12 7     F2/FC5/0     0/FC3/2,UP    3        12 7     F2/FC5/0     0/FC3/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/1,equals,UP    3        12 7     F2/FC5/1     0/FC3/3,UP    3        12 7     F2/FC5/1     0/FC3/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC5/6,equals,UP    1        12 1     F1/FC5/6     3/FC1/10,UP    1        12 1     F1/FC5/6     3/FC1/10,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/3,equals,UP    3        12 7     F2/FC5/3     1/FC3/3,UP    3        12 7     F2/FC5/3     1/FC3/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/5,equals,UP    3        12 7     F2/FC5/5     2/FC3/3,UP    3        12 7     F2/FC5/5     2/FC3/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/6,equals,UP    3        12 7     F2/FC5/6     3/FC3/2,UP    3        12 7     F2/FC5/6     3/FC3/2,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/7,equals,UP    3        12 7     F2/FC5/7     3/FC3/3,UP    3        12 7     F2/FC5/7     3/FC3/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC6/7,equals,UP    3        12 1     F2/FC6/7     3/FC3/7,UP    3        12 1     F2/FC6/7     3/FC3/7,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F1/FC6/3,equals,UP    2        12 7     F1/FC6/3     1/FC2/3,UP    2        12 7     F1/FC6/3     1/FC2/3,TRUE
+56_Admin_Show_Controller_Fabric_Bundle,1,F2/FC5/4,equals,UP    3        12 7     F2/FC5/4     2/FC3/2,UP    3        12 7     F2/FC5/4     2/FC3/2,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,M4_to_HMC_tag,equals,UP   Te0/0/0/6/1.179        UP       11.101.0.144    179    UP    ,UP   Te0/0/0/6/1.179        UP       11.101.0.144    179    UP    ,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,PW_PingTest_ME,equals,UP   BE999.1999             UP       11.103.0.83     99999  UP    ,UP   BE999.1999             UP       11.103.0.83     99999  UP    ,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,BROOK_HUB3_INTER,equals,UR   Hu0/0/0/1.999          UR       11.104.0.179    999    DN    ,UR   Hu0/0/0/1.999          UR       11.104.0.179    999    DN    ,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,EPNM_Bro_VS05_T2T,equals,UP   Te0/0/0/6/1.2          UP       11.101.0.174    200    UP    ,UP   Te0/0/0/6/1.2          UP       11.101.0.174    200    UP    ,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,CE4_Brooklyn_10022,equals,UR   Hu0/0/0/1.100          UR       11.101.0.80     10022  DN    ,UR   Hu0/0/0/1.100          UR       11.101.0.80     10022  DN    ,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,macsec_2000,equals,DN   Te0/7/0/6/2.2000       UP       11.108.0.99     2000   DN    ,DN   Te0/7/0/6/2.2000       UP       11.108.0.99     2000   DN    ,TRUE
+62a_Show_L2vpn_Xconnect_Location,1,vlan10,equals,UP   Te0/0/0/6/1.10         UP       Hu0/7/0/1.10           UP    ,UP   Te0/0/0/6/1.10         UP       Hu0/7/0/1.10           UP    ,TRUE
+69_Show_L2VPN_Xconnect_Brief,1,DOWN,equals,1,1,TRUE
+69_Show_L2VPN_Xconnect_Brief,1,UNRESOLVED,equals,2,2,TRUE
+69_Show_L2VPN_Xconnect_Brief,1,UP,equals,4,4,TRUE
